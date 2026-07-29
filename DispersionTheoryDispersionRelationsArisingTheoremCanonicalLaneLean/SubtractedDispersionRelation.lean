@@ -1,0 +1,16 @@
+import canonicalLaneMathlib.AdmissibleClass
+import DispersionTheoryDispersionRelationsArisingTheoremCanonicalLaneLean.ForwardDispersionRelation
+
+namespace HautevilleHouse
+namespace DispersionTheoryDispersionRelationsArisingTheoremCanonicalLaneLean
+
+structure SubtractedDispersionRelation (A : AdmissibleClass) where
+  baseRelation : ForwardDispersionRelation A
+  subtractionPoint : ℝ
+  subtractedKernelDefined : Prop
+  convergenceImproved : Prop
+  subtractedKernelClosed : subtractedKernelDefined
+  convergenceClosed : convergenceImproved
+
+end DispersionTheoryDispersionRelationsArisingTheoremCanonicalLaneLean
+end HautevilleHouse

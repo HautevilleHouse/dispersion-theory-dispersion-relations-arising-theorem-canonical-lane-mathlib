@@ -1,0 +1,9 @@
+import dispersion_theory_dispersion_relations_arising_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace dispersion_theory_dispersion_relations_arising_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end dispersion_theory_dispersion_relations_arising_theorem_canonical_lane_mathlib
+end HautevilleHouse
